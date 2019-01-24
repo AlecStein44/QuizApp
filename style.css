@@ -1,0 +1,135 @@
+* {
+  color: white;
+  box-sizing: border-box;
+}
+/* Header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  font-size: 2em;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.homeImg {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 45px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/* Main body */
+body {
+  background-color: #4b5320;
+}
+
+main {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.questionForm {
+  display: none;
+}
+
+.startScreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.startButton {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+fieldset {
+  border: none;
+}
+
+.questionText {
+  margin: auto;
+}
+
+.answerOption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid white;
+  margin: 5px 5px 5px 5px;
+  padding: 20px;
+}
+
+.answerOption:hover {
+  background-color: black;
+  transition: all 0.3s ease-out;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  margin: 5px 5px 5px 5px;
+  padding: 20px;
+  background-color: #4b5320;
+}
+
+button:hover {
+  background-color: black;
+  transition: all 0.3s ease-out;
+}
+
+img {
+  width: 800px;
+  height: 400px;
+}
+
+p {
+  font-size: 2em;
+}
+
+/* mobile Support */
+
+
+@media screen and (max-width: 770px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+  }
+  
+  .questionForm {
+    display: none;
+    width: 100%;
+  }
+  
+  .startScreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
