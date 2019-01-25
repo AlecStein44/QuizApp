@@ -52,6 +52,7 @@
   .startButton {
     display: flex;
     font-size: 20px;
+    cursor: pointer;
   }
   
   h2 {
@@ -72,6 +73,7 @@
     border: 2px solid white;
     margin: 5px 5px 5px 5px;
     padding: 20px;
+    cursor: pointer;
   }
   
   .answerOption:hover {
@@ -86,6 +88,7 @@
     padding: 20px;
     background-color: #4b5320;
     max-width: 90px;
+    cursor: pointer;
   }
   
   button:hover {

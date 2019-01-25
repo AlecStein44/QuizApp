@@ -79,6 +79,7 @@ fieldset {
   border: 2px solid white;
   margin: 5px 5px 5px 5px;
   padding: 20px;
+  cursor: pointer;
 }
 
 .answerOption:hover {
@@ -93,6 +94,7 @@ button {
   margin: 5px 5px 5px 5px;
   padding: 20px;
   background-color: #4b5320;
+  cursor: pointer;
 }
 
 button:hover {
@@ -107,29 +109,4 @@ img {
 
 p {
   font-size: 2em;
-}
-
-/* mobile Support */
-
-
-@media screen and (max-width: 770px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-    flex-wrap:wrap;
-  }
-  
-  .questionForm {
-    display: none;
-    width: 100%;
-  }
-  
-  .startScreen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
 }
